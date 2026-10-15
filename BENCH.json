@@ -1,0 +1,178 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "SLURM",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SUPERCOMPUTER\\SLURM\\UPSTREAM",
+  "git": {
+   "head": "cf399c5e140ae7dda1b1ed7ccfe0d000bb65af6d",
+   "url": "https://github.com/giovtorres/slurm-docker-cluster",
+   "branch": "main",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "GitHub API commits/main"
+  }
+ },
+ "metrics": {
+  "files_total": 0,
+  "source_files_scanned": 0,
+  "lines_of_code": 0,
+  "languages": {}
+ },
+ "licence": {
+  "spdx": "NOASSERTION",
+  "class": "C",
+  "source_file": null,
+  "redistribution_allowed": false
+ },
+ "dependencies": {
+  "count": 0,
+  "unique": 0,
+  "by_ecosystem": {},
+  "list": []
+ },
+ "owasp_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 0,
+    "findings": []
+   },
+   "A04-InsecureDesign": {
+    "count": 0,
+    "findings": []
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 0,
+    "findings": []
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:749faf62-a7a3-5e84-9268-06373554e9a3",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-09T09:22:51Z",
+   "component": {
+    "type": "application",
+    "name": "SLURM",
+    "version": "cf399c5e140a",
+    "bom-ref": "pkg:generic/anticloud/SLURM@cf399c5e140a",
+    "purl": "pkg:generic/anticloud/SLURM@cf399c5e140a",
+    "licenses": [
+     {
+      "license": {
+       "id": "NOASSERTION"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "cf399c5e140ae7dd"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": []
+ },
+ "elapsed_seconds": 0.41,
+ "all_passed": false,
+ "passed": 0,
+ "failed": 0,
+ "failed_ids": [],
+ "blocker": "no upstream source on disk: UPSTREAM_CLONE and UPSTREAM both empty/missing; nothing to measure; clone blocked or license-blocked"
+}

@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:749faf62-a7a3-5e84-9268-06373554e9a3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-09T09:22:51Z",
+    "component": {
+      "type": "application",
+      "name": "SLURM",
+      "version": "cf399c5e140a",
+      "bom-ref": "pkg:generic/anticloud/SLURM@cf399c5e140a",
+      "purl": "pkg:generic/anticloud/SLURM@cf399c5e140a",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "cf399c5e140ae7dd"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
